@@ -1,0 +1,56 @@
+Tecnologias e versões utilizadas:
+
+- Spring Boot v2.3.1.RELEASE
+- Java jdk 11
+- Maven 4.0
+- Hibernate 5.4.17
+- Tomcat 9.0.36
+- Mysql 8.0.20
+
+- ReactJS - 
+
+  componentes instalados
+  	- npm install react-router-dom --save
+  	- npm install react-bootstrap bootstrap --save
+  	- npm install react-toastify --save
+  	- npm install react-datepicker --save
+  	- npm install react-confirm-alert --save
+  	- npm install react-paginate --save
+ 
+- Node 12.18.1
+- Npm 6.14.2
+
+
+- Para rodar a aplicação é necessário a instalação das informações mencionadas a cima.
+
+
+-----------------------------------------
+
+- As configurações do banco de dados estão configuradas no arquivo application.properties 
+  no pacote src/main/resources
+  
+- nome banco de dados = test
+- usuário = root
+- senha = 123456
+
+------------------------------------------
+
+Frontend
+- Diretório principal foi criado na raiz do projeto com o nome de app.
+- As páginas do projeto estão no diretório app/src/ e app/public/
+
+Backend
+- Os arquivos estão salvos no pacote principal do projeto src/main/java
+
+
+-------------------------------------------
+
+Testes Unitários
+- Os teste unitários estão no pacote src/test/java com o nome de UnitTest.java.
+- Ao executar este arquivo algumas informações serão salvas na base de dados e posteriormente alguns testes
+  de validação e o retorno dos mesmos.
+  
+-------------------------------------------
+
+
+
